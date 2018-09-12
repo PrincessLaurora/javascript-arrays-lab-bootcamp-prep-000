@@ -26,5 +26,6 @@ var newkittens = [...kittens,'Broom'];
 }
 
 function prependKitten(name) {
-  var kittens = ['Arnold',...kittens]
+  var newkittens = ['Arnold',...kittens]
+  return newkittens;
 }
